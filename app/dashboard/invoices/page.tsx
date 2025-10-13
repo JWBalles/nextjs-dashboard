@@ -1,8 +1,4 @@
 const Page = () => {
-  return(
-    <div>
-      <p>Invoice Page</p>;
-  </div>
-  )
-  
+  return <p>Invoice Page</p>
 }
+export default Page;

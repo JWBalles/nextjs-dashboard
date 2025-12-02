@@ -1,7 +1,5 @@
 
-5:12 PM
-You sent
-import { lusitana } from '@/app/ui/fonts';
+import { lusitana } from '@/app/ui/font';
 import LoginForm from '@/app/ui/login-form';
 
 export default function Page() {

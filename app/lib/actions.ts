@@ -93,6 +93,8 @@ export async function updateInvoice(
     console.error('Error updating invoice:', error);
     throw new Error('Failed to update invoice.');
   }
+  revalidatePath('/dashboard/invoices');
+  redirect('/dashboard/invoices');
 }
 export async function deleteInvoice(id: string) {
     
